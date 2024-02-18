@@ -1,10 +1,3 @@
-/*
- * @Descripttion: 雾粒子
- * @Author: 笙痞
- * @Date: 2023-01-04 18:11:32
- * @LastEditors: 笙痞77
- * @LastEditTime: 2023-05-19 09:56:16
- */
 import * as Cesium from "cesium";
 class FogEffect {
   constructor(viewer, options) {

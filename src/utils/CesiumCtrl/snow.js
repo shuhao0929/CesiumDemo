@@ -1,11 +1,3 @@
-/*
- * @Descripttion: 雪花粒子类
- * @Author: 笙痞
- * @Date: 2023-01-04 14:01:07
- * @LastEditors: 笙痞77
- * @LastEditTime: 2023-05-19 09:52:52
- */
-
 import * as Cesium from "cesium";
 class SnowEffect {
   constructor(viewer, options) {
