@@ -1,0 +1,96 @@
+[
+  {
+    "id":"document",
+    "version":"1.0"
+  },
+  {
+    "id":"Vehicle",
+    "availability":"2012-08-04T08:00:00Z/2012-08-04T09:04:54.9962195740191Z",
+    "label":{
+      "fillColor":[
+        {
+          "interval":"2012-08-04T08:00:00Z/2012-08-04T10:00:00Z",
+          "rgba":[
+            255,255,0,255
+          ]
+        }
+      ],
+      "font":"bold 10pt Segoe UI Semibold",
+      "horizontalOrigin":"CENTER",
+      "outlineColor":{
+        "rgba":[
+          0,0,0,255
+        ]
+      },
+      "pixelOffset":{
+        "cartesian2":[
+          0.0,20.0
+        ]
+      },
+      "scale":1.0,
+      "show":[
+        {
+          "interval":"2012-08-04T08:00:00Z/2012-08-04T18:00:00Z",
+          "boolean":true
+        }
+      ],
+      "style":"FILL",
+      "text":"机器人",
+      "verticalOrigin":"CENTER"
+    },
+    "model":{
+     "gltf":"../three/q2.glb",
+      "minimumPixelSize":50,
+      "maximumScale":25
+    },
+    "orientation" : {
+      "velocityReference": "#position"
+    },
+    "viewFrom": {
+      "cartesian": [ -2080, -1715, 779 ]
+    },
+    "properties" : {
+        "fuel_remaining" : {
+            "epoch":"2012-08-04T08:00:00Z",
+            "number": [
+                0, 22.5,
+                1500, 21.2
+            ]
+        }
+    },
+    "path":{
+      "material":{
+          "solidColor":{
+            "color":{
+                "interval":"2012-08-04T08:00:00Z/2012-08-04T18:00:00Z",
+                "rgba":[
+                  255,255,0,255
+                ]
+              }
+            }
+      },
+      "width":[
+        {
+          "interval":"2012-08-04T08:00:00Z/2012-08-04T18:00:00Z",
+          "number":5.0
+        }
+      ],
+      "show":[
+        {
+          "interval":"2012-08-04T08:00:00Z/2012-08-04T18:00:00Z",
+          "boolean":true
+        }
+      ]
+    },
+    "position":{
+      "interpolationAlgorithm":"LAGRANGE",
+      "interpolationDegree":1,
+      "epoch":"2012-08-04T08:00:00Z",
+      "cartesian":[
+        900.0,-2357010.075312202, 4580899.42660667, 3748026.295619539,
+        1000.0,-2356939.640935299, 4580925.504900081, 3748036.051178326,
+        1100.0,-2356887.5448692325, 4580934.396804759, 3748060.465832475
+      ]
+    }
+  }
+]
