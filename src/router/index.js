@@ -143,6 +143,15 @@ const routes = [
                     activePath: "/Layer/Geojson",
                 },
             },
+            {
+                path: "3dtiles",
+                name: "Layer_3dtiles",
+                component: () => import("@/view/Layer/3dtiles.vue"),
+                meta: {
+                    title: "3D Tiles",
+                    activePath: "/Layer/3dtiles",
+                },
+            },
         ],
     },
 ];
